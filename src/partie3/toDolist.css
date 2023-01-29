@@ -1,0 +1,54 @@
+* {
+}
+
+.container-parent {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+}
+.container-tasks {
+  display: flex;
+  justify-content: space-around;
+  font-size: larger;
+  padding: 25px 0;
+  margin: 1% 0;
+  background-color: rgb(255, 0, 0);
+  width: 100%;
+  border-radius: 15px;
+}
+.btns {
+  display: flex;
+  flex: 1;
+  justify-content: space-around;
+  align-items: center;
+  margin-right: 10%;
+}
+.task {
+  flex: 2;
+  margin-left: 10%;
+}
+.btns button {
+  width: 35%;
+  height: 140%;
+}
+
+.addNewTask {
+  display: flex;
+  align-items: center;
+  padding: 2% 0;
+  width: 100%;
+  background-color: rgb(217, 255, 0);
+  border-radius: 15px;
+}
+
+.addNewTask button {
+  padding: 0.75% 1%;
+  margin: auto 0;
+}
+.addNewTask input {
+  margin-left: 10%;
+  margin-right: 1%;
+  padding: 0.75% 7%;
+  width: 40%;
+}
